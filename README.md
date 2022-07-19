@@ -27,4 +27,4 @@ You can get these credentials from your UNiDAYS Contact.
 
 
 ## Take it for a spin
-Launch your browser and navigate to http://localhost:8888/php-oauth2-example/ (or whatever the correct path is). 
+Launch your browser and navigate to http://localhost:8080 (or whatever the correct path is for your installation). 
