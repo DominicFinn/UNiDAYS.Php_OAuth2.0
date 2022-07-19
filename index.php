@@ -10,7 +10,7 @@ session_start();
 
 $clientId = $_ENV['CLIENT_ID'];
 $clientSecret = $_ENV['CLIENT_SECRET'];
-$redirectUri = 'http://localhost:8888/php-oauth2-example/index.php';
+$redirectUri = 'http://localhost:8080/index.php';
 
 $provider = new \League\OAuth2\Client\Provider\GenericProvider([
     'clientId'                => $clientId,
@@ -53,8 +53,8 @@ if (!isset($_GET['code'])) {
             'code' => $_GET['code']
         ]);
 
-        // We have an access token, which we may use in authenticated requests 
-        // Retrieve the array of connected orgs and their tenant ids.      
+        // We have an access token, which we may use in authenticated requests
+        // Retrieve the array of connected orgs and their tenant ids.
         $options['headers']['Accept'] = 'application/json';
         $connectionsResponse = $provider->getAuthenticatedRequest(
             'GET',

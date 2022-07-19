@@ -7,7 +7,10 @@ well.DS_Store
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 # composer.lock
 
+.vs/
+.vscode/
 
-
+UNiDAYS-PHP-OAuth.phpproj.user
+UNiDAYS-PHP-OAuth.phpproj
 
 .env
