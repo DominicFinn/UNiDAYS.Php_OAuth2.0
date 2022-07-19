@@ -1,12 +1,18 @@
 {
-    "name": "sid.maestre/php-oauth2",
+    "name": "unidays/oauthexample",
     "authors": [
         {
             "name": "SidneyAllen",
             "email": "sid.maestre@xero.com"
+        },
+        {
+            "name": "Dominic Finn",
+            "email": "dominic.finn@myunidays.com"
         }
     ],
+    "description": "Forked from https://github.com/XeroAPI/php-oauth2-example as a quick start to demo how to use UNiDAYS Connect with a PHP application.",
     "require": {
-        "league/oauth2-client": "^2.5"
+        "league/oauth2-client": "^2.5",
+        "vlucas/phpdotenv": "^5.4"
     }
 }
